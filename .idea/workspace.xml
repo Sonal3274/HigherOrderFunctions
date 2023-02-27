@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="093f0113-a8e9-4659-82ac-f385b87f912d" name="Changes" comment="Created an example for the usage of the calculate function with a lambda as an argument" />
+    <list default="true" id="093f0113-a8e9-4659-82ac-f385b87f912d" name="Changes" comment="Created an example function passed as an argument">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ReturningFunctionsFromFunctions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,20 +37,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Kotlin.FunctionPassedAsArgumentsKt">
+}</component>
+  <component name="RunManager" selected="Kotlin.ReturningFunctionsFromFunctionsKt">
+    <configuration name="DefaultAndNullValuesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefaultAndNullValuesKt" />
+      <module name="HigherOrderFunctions.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionPassedAsArgumentsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FunctionPassedAsArgumentsKt" />
       <module name="HigherOrderFunctions.main" />
@@ -69,19 +79,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <module name="untitled.main" />
+    <configuration name="ReturningFunctionsFromFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReturningFunctionsFromFunctionsKt" />
+      <module name="HigherOrderFunctions.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ReturningFunctionsFromFunctionsKt" />
+        <item itemvalue="Kotlin.DefaultAndNullValuesKt" />
         <item itemvalue="Kotlin.FunctionPassedAsArgumentsKt" />
         <item itemvalue="Kotlin.FunctionTypesKt" />
         <item itemvalue="Kotlin.MainKt (1)" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +104,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677180694888</updated>
-      <workItem from="1677180697326" duration="2395000" />
+      <workItem from="1677180697326" duration="3011000" />
+      <workItem from="1677520420575" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1677181000383</created>
@@ -109,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677267203247</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created an example function passed as an argument">
+      <created>1677351434528</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677351434528</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +148,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Created an example for the usage of the calculate function with a lambda as an argument" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created an example for the usage of the calculate function with a lambda as an argument" />
+    <MESSAGE value="Created an example function passed as an argument" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created an example function passed as an argument" />
   </component>
 </project>
