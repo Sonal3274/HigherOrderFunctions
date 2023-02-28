@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="093f0113-a8e9-4659-82ac-f385b87f912d" name="Changes" comment="Created an example function passed as an argument">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ReturningFunctionsFromFunctions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="093f0113-a8e9-4659-82ac-f385b87f912d" name="Changes" comment="Created an example for returning functions from functions">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RemovingDuplicationThroughLambdas.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.ReturningFunctionsFromFunctionsKt">
+  <component name="RunManager" selected="Kotlin.RemovingDuplicationThroughLambdasKt">
     <configuration name="DefaultAndNullValuesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DefaultAndNullValuesKt" />
       <module name="HigherOrderFunctions.main" />
@@ -72,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+    <configuration name="RemovingDuplicationThroughLambdasKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemovingDuplicationThroughLambdasKt" />
       <module name="HigherOrderFunctions.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.RemovingDuplicationThroughLambdasKt" />
         <item itemvalue="Kotlin.ReturningFunctionsFromFunctionsKt" />
         <item itemvalue="Kotlin.DefaultAndNullValuesKt" />
         <item itemvalue="Kotlin.FunctionPassedAsArgumentsKt" />
         <item itemvalue="Kotlin.FunctionTypesKt" />
-        <item itemvalue="Kotlin.MainKt (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677180694888</updated>
       <workItem from="1677180697326" duration="3011000" />
-      <workItem from="1677520420575" duration="354000" />
+      <workItem from="1677520420575" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1677181000383</created>
@@ -128,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677351434528</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created an example for returning functions from functions">
+      <created>1677522043999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677522043999</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +156,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Created an example for the usage of the calculate function with a lambda as an argument" />
     <MESSAGE value="Created an example function passed as an argument" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created an example function passed as an argument" />
+    <MESSAGE value="Created an example for returning functions from functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created an example for returning functions from functions" />
   </component>
 </project>
