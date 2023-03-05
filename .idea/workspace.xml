@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="093f0113-a8e9-4659-82ac-f385b87f912d" name="Changes" comment="Created an example for returning functions from functions">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RemovingDuplicationThroughLambdas.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="093f0113-a8e9-4659-82ac-f385b87f912d" name="Changes" comment="Created an example for inline function">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/InlineOnCollections.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.RemovingDuplicationThroughLambdasKt">
+  <component name="RunManager" selected="Kotlin.InlineOnCollectionsKt">
     <configuration name="DefaultAndNullValuesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DefaultAndNullValuesKt" />
       <module name="HigherOrderFunctions.main" />
@@ -58,15 +58,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionPassedAsArgumentsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionPassedAsArgumentsKt" />
+    <configuration name="InlineFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InlineFunctionKt" />
       <module name="HigherOrderFunctions.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTypesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionTypesKt" />
+    <configuration name="InlineOnCollectionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InlineOnCollectionsKt" />
       <module name="HigherOrderFunctions.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.InlineOnCollectionsKt" />
+        <item itemvalue="Kotlin.InlineFunctionKt" />
         <item itemvalue="Kotlin.RemovingDuplicationThroughLambdasKt" />
         <item itemvalue="Kotlin.ReturningFunctionsFromFunctionsKt" />
         <item itemvalue="Kotlin.DefaultAndNullValuesKt" />
-        <item itemvalue="Kotlin.FunctionPassedAsArgumentsKt" />
-        <item itemvalue="Kotlin.FunctionTypesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677180694888</updated>
       <workItem from="1677180697326" duration="3011000" />
-      <workItem from="1677520420575" duration="644000" />
+      <workItem from="1677520420575" duration="2204000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1677181000383</created>
@@ -135,7 +135,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677522043999</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created an example for removing duplication through lambdas">
+      <created>1677565798297</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677565798297</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created an example for removing duplication through lambdas">
+      <created>1677565933839</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677565933839</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created an example for inline function">
+      <created>1677997313971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677997313971</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +178,8 @@
     <MESSAGE value="Created an example for the usage of the calculate function with a lambda as an argument" />
     <MESSAGE value="Created an example function passed as an argument" />
     <MESSAGE value="Created an example for returning functions from functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created an example for returning functions from functions" />
+    <MESSAGE value="Created an example for removing duplication through lambdas" />
+    <MESSAGE value="Created an example for inline function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created an example for inline function" />
   </component>
 </project>
