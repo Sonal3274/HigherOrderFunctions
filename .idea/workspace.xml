@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="093f0113-a8e9-4659-82ac-f385b87f912d" name="Changes" comment="Created an example for inline function">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/InlineOnCollections.kt" afterDir="false" />
+    <list default="true" id="093f0113-a8e9-4659-82ac-f385b87f912d" name="Changes" comment="Created an example for return from an enclosing function">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ReturnWithALabel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,14 +50,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.InlineOnCollectionsKt">
-    <configuration name="DefaultAndNullValuesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefaultAndNullValuesKt" />
-      <module name="HigherOrderFunctions.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.ReturnWithALabelKt">
     <configuration name="InlineFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InlineFunctionKt" />
       <module name="HigherOrderFunctions.main" />
@@ -72,15 +65,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemovingDuplicationThroughLambdasKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RemovingDuplicationThroughLambdasKt" />
+    <configuration name="InlinedLambdasForResourceManagementKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InlinedLambdasForResourceManagementKt" />
       <module name="HigherOrderFunctions.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReturningFunctionsFromFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReturningFunctionsFromFunctionsKt" />
+    <configuration name="ReturnFromAnEnclosingFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReturnFromAnEnclosingFunctionKt" />
+      <module name="HigherOrderFunctions.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReturnWithALabelKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReturnWithALabelKt" />
       <module name="HigherOrderFunctions.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ReturnWithALabelKt" />
+        <item itemvalue="Kotlin.ReturnFromAnEnclosingFunctionKt" />
+        <item itemvalue="Kotlin.InlinedLambdasForResourceManagementKt" />
         <item itemvalue="Kotlin.InlineOnCollectionsKt" />
         <item itemvalue="Kotlin.InlineFunctionKt" />
-        <item itemvalue="Kotlin.RemovingDuplicationThroughLambdasKt" />
-        <item itemvalue="Kotlin.ReturningFunctionsFromFunctionsKt" />
-        <item itemvalue="Kotlin.DefaultAndNullValuesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677180694888</updated>
       <workItem from="1677180697326" duration="3011000" />
-      <workItem from="1677520420575" duration="2204000" />
+      <workItem from="1677520420575" duration="3224000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1677181000383</created>
@@ -156,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677997313971</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Created an example for inline function on collection">
+      <created>1678001132355</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678001132355</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created an example for return from an enclosing function">
+      <created>1677915618535</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677915618535</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +194,8 @@
     <MESSAGE value="Created an example for returning functions from functions" />
     <MESSAGE value="Created an example for removing duplication through lambdas" />
     <MESSAGE value="Created an example for inline function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created an example for inline function" />
+    <MESSAGE value="Created an example for inline function on collection" />
+    <MESSAGE value="Created an example for return from an enclosing function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created an example for return from an enclosing function" />
   </component>
 </project>
